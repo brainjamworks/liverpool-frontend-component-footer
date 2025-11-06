@@ -4,6 +4,9 @@ import StudioFooter from './components/studio-footer';
 import FooterSlot from './plugin-slots/FooterSlot';
 import StudioFooterSlot from './plugin-slots/StudioFooterSlot';
 
+// Import Liverpool footer styles
+import './_footer.scss';
+
 export default Footer;
 export {
   messages, EVENT_NAMES, StudioFooter, FooterSlot, StudioFooterSlot,

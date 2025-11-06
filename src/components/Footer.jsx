@@ -154,14 +154,26 @@ const LiverpoolFooter = ({
 
       {/* Footer Bottom */}
       <div className="liverpool-footer__bottom">
-        <p className="liverpool-footer__copyright">
-          &copy; {year} University of Liverpool. All rights reserved.
-        </p>
-        {showOpenEdxAttribution && (
-          <p className="liverpool-footer__powered-by">
-            Powered by <a href="https://openedx.org" onClick={externalLinkClickHandler}>Open edX</a>
+        <div>
+          <p className="liverpool-footer__copyright">
+            &copy; {year} University of Liverpool. All rights reserved.
           </p>
-        )}
+          {showOpenEdxAttribution && (
+            <p className="liverpool-footer__powered-by">
+              Powered by <a href="https://openedx.org" onClick={externalLinkClickHandler}>Open edX</a>
+            </p>
+          )}
+        </div>
+        <div className="liverpool-footer__built-by">
+          <span className="liverpool-footer__built-by-text">Built by</span>
+          <a href="https://brainjam.works" target="_blank" rel="noopener noreferrer" onClick={externalLinkClickHandler}>
+            <img
+              src={config.BRAINJAM_LOGO_URL || 'https://brainjam.works/logo.png'}
+              alt="BrainJam"
+              className="liverpool-footer__built-by-logo"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );

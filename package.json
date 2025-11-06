@@ -1,6 +1,6 @@
 {
   "name": "@brainjam/liverpool-frontend-component-footer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "University of Liverpool Dental School custom footer for Open edX MFEs",
   "main": "dist/index.js",
   "publishConfig": {

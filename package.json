@@ -1,7 +1,7 @@
 {
-  "name": "@edx/frontend-component-footer",
-  "version": "1.0.0-semantically-released",
-  "description": "Footer component for use when building Open edX frontend applications",
+  "name": "@liverpool-dental/frontend-component-footer",
+  "version": "1.0.0",
+  "description": "University of Liverpool Dental School custom footer for Open edX MFEs",
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
@@ -22,14 +22,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-component-footer.git"
+    "url": "git+https://github.com/brainjamworks/liverpool-frontend-component-footer.git"
   },
-  "author": "edX",
+  "author": "University of Liverpool Dental School",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/openedx/frontend-component-footer/issues"
+    "url": "https://github.com/brainjamworks/liverpool-frontend-component-footer/issues"
   },
-  "homepage": "https://github.com/openedx/frontend-component-footer#readme",
+  "homepage": "https://github.com/brainjamworks/liverpool-frontend-component-footer#readme",
   "devDependencies": {
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
     "@edx/browserslist-config": "^1.1.1",
